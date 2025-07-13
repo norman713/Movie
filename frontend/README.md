@@ -1,12 +1,31 @@
-# React + Vite
+🚀 React + Vite Starter Template
+This project provides a minimal yet powerful setup to kickstart your React development with Vite, featuring lightning-fast hot module replacement (HMR), optimized build performance, and ESLint support.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📦 Features
+⚛️ React 18 support
 
-Currently, two official plugins are available:
+⚡ Vite for fast development and optimized builds
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔁 Hot Module Replacement (HMR)
 
-## Expanding the ESLint configuration
+✅ ESLint configured for basic linting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧩 Optional plugin options:
+
+@vitejs/plugin-react — uses Babel for Fast Refresh
+
+@vitejs/plugin-react-swc — uses SWC for Fast Refresh (faster builds)
+
+🛠️ Getting Started
+bash
+
+# Install dependencies
+
+npm install
+
+# Start dev server
+
+npm run dev
+
+📄 License
+MIT
